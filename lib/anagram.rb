@@ -8,10 +8,9 @@ class Anagram
   end
 
   def match(some_word)
-    some_word = some_word.split {
+    puts some_word = some_word.split {
       |word| Word.split ("")
     }
-
-
+  end
   end
 end
