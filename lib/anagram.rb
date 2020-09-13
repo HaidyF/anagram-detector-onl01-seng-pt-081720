@@ -7,9 +7,9 @@ class Anagram
     @word = word
   end
 
-  def match(some_word)
-    puts x = some_word.split ("")
-    x == x
+  def self.match(some_word)
+    puts x = some_word.split (" ")
+
     some_word
   end
 end
