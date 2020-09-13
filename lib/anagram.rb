@@ -15,7 +15,7 @@ class Anagram
           return elements
         else
           return []
-
+        end
     end
   end
 end
