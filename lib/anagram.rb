@@ -9,7 +9,7 @@ class Anagram
 
   def match(some_word)
     some_word = some_word.split {
-      |word| Word.split("")
+      |word| Word.split ("")
     }
 
 
