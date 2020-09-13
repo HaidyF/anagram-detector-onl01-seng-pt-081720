@@ -7,7 +7,7 @@ class Anagram
   def initialize(word)
     @word = word
     @arr << word
-    @word = word.split("")
+    @word = word.split("").sort
   end
 
   def self.match(words)
