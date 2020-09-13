@@ -11,10 +11,9 @@ class Anagram
   end
 
   def self.match(words)
-    words.each do { |element|
+    words.each do  |element|
         splitted = element.split("").sort
         splitted == word
-    }
     end
   end
 end
