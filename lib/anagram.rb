@@ -7,7 +7,11 @@ class Anagram
     @word = word
   end
 
-  def match
+  def match(some_word)
+    some_word = some_word.split {
+      |word| Word.split("")
+    }
+
 
   end
 end
