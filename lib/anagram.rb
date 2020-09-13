@@ -9,6 +9,6 @@ class Anagram
 
   def match(some_word)
     puts some_word.split ("")
-
+    some_word
   end
 end
