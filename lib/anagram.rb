@@ -2,15 +2,19 @@
 class Anagram
 
   attr_accessor :word
+  Arr = []
 
   def initialize(word)
     @word = word
+    @arr << word
   end
 
-  def self.match(some_word)
-    some_word.each do { |words|
-        splitted = words.split("").sort}
-        
+  def self.match(words)
+    words.each do { |element|
+        splitted = element.split("").sort
+        splitted == word
+    }
+
 
     end
   end
