@@ -13,10 +13,9 @@ class Anagram
     words.each do  |element|
         splitted = element.split("").sort
         if splitted == @word
-          return element
-        else
-          return []
+          x << element
         end
     end
+    return x
   end
 end
