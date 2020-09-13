@@ -8,7 +8,8 @@ class Anagram
   end
 
   def match(some_word)
-    puts some_word.split ("")
+    puts x = some_word.split ("")
+    x == x
     some_word
   end
 end
