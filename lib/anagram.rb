@@ -8,8 +8,10 @@ class Anagram
   end
 
   def self.match(some_word)
-    puts x = some_word.split (" ")
+    some_word.each do { |words|
+        splitted = words.split("").sort}
+        
 
-    some_word
+    end
   end
 end
