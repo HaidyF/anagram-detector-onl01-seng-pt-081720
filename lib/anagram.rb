@@ -15,8 +15,6 @@ class Anagram
         splitted = element.split("").sort
         splitted == word
     }
-
-
     end
   end
 end
